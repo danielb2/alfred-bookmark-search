@@ -1,6 +1,6 @@
 require 'json'
 
-PROFILE="~/Library/Application Support/BraveSoftware/Brave-Browser/**/Bookmarks"
+PROFILE="~/Library/Application Support/BraveSoftware/Brave-Browser/*/Bookmarks"
 
 path = File.expand_path(PROFILE)
 
