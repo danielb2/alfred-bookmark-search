@@ -9,7 +9,11 @@ The icons used next to the url will indicate what browser the bookmark is stored
 
 ![screenshot](./demo.webp)
 
+## Why another?
+
+The bookmark search workflow I used prior to writing this was written using PHP, which was not always installed on my computer, thus causing it to fail. For this bookmark search, I'm using ruby, an interpreter which ships with macos and thus will be present.
+
 Unlike other bookmark searches, the order of words don't matter. 
 
-![screenshot](./demo2.webp)
+![screenshot](./demo2.webp) 
 
