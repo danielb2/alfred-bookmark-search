@@ -1,7 +1,7 @@
 require 'json'
 
 def get_for_browsers(items)
-  bookmarks = {
+  {
     "brave": '~/Library/Application Support/BraveSoftware/Brave-Browser/*/Bookmarks',
     "brave_beta": '~/Library/Application Support/BraveSoftware/Brave-Browser-Beta/*/Bookmarks',
     "chrome": '~/Library/Application Support/Google/Chrome/*/Bookmarks',
@@ -11,9 +11,7 @@ def get_for_browsers(items)
     "vivaldi": '~/Library/Application Support/Vivaldi/*/Bookmarks',
     "edge": '~/Library/Application Support/Microsoft Edge/*/Bookmarks',
     "arc": "~/Library/Application Support/Arc/User Data/*/Bookmarks",
-  }
-
-  bookmarks.each { |browser, path| get_for_browser(browser, File.expand_path(path), items) }
+  }.each { |browser, path| get_for_browser(browser, File.expand_path(path), items) }
   items
 end
 
