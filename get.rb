@@ -6,7 +6,7 @@ def get_for_browsers(items)
     "brave_beta": '~/Library/Application Support/BraveSoftware/Brave-Browser-Beta/*/Bookmarks',
     "chrome": '~/Library/Application Support/Google/Chrome/*/Bookmarks',
     "chromium": '~/Library/Application Support/Chromium/*/Bookmarks',
-    "opera": '~/Library/Application Support/com.operasoftware.Opera/Bookmarks',
+    "opera": '~/Library/Application Support/com.operasoftware.Opera/*/Bookmarks',
     "sidekick": '~/Library/Application Support/Sidekick/*/Bookmarks',
     "vivaldi": '~/Library/Application Support/Vivaldi/*/Bookmarks',
     "edge": '~/Library/Application Support/Microsoft Edge/*/Bookmarks',
